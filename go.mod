@@ -1,6 +1,6 @@
 module github.com/bufbuild/buf
 
-go 1.19
+go 1.26.0
 
 require (
 	github.com/bufbuild/connect-go v1.7.0
@@ -32,7 +32,7 @@ require (
 	golang.org/x/exp v0.0.0-20230425010034-47ecfdc1ba53
 	golang.org/x/mod v0.10.0
 	golang.org/x/net v0.10.0
-	golang.org/x/sync v0.2.0
+	golang.org/x/sync v0.23.0
 	golang.org/x/term v0.8.0
 	golang.org/x/tools v0.9.1
 	google.golang.org/protobuf v1.30.0
