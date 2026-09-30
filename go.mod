@@ -1,6 +1,6 @@
 module github.com/bufbuild/buf
 
-go 1.19
+go 1.25
 
 require (
 	github.com/bufbuild/connect-go v1.7.0
@@ -8,7 +8,7 @@ require (
 	github.com/docker/docker v23.0.6+incompatible
 	github.com/go-chi/chi/v5 v5.0.8
 	github.com/gofrs/flock v0.8.1
-	github.com/gofrs/uuid/v5 v5.0.0
+	github.com/gofrs/uuid/v5 v5.5.1
 	github.com/google/go-cmp v0.5.9
 	github.com/google/go-containerregistry v0.15.1
 	github.com/jdxcode/netrc v0.0.0-20221124155335-4616370d1a84
