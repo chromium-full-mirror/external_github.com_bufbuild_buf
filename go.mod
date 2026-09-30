@@ -1,6 +1,6 @@
 module github.com/bufbuild/buf
 
-go 1.19
+go 1.26.0
 
 require (
 	github.com/bufbuild/connect-go v1.7.0
@@ -33,7 +33,7 @@ require (
 	golang.org/x/mod v0.10.0
 	golang.org/x/net v0.10.0
 	golang.org/x/sync v0.2.0
-	golang.org/x/term v0.8.0
+	golang.org/x/term v0.46.0
 	golang.org/x/tools v0.9.1
 	google.golang.org/protobuf v1.30.0
 	gopkg.in/yaml.v3 v3.0.1
@@ -69,6 +69,6 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	github.com/vbatts/tar-split v0.11.3 // indirect
-	golang.org/x/sys v0.8.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 )
