@@ -148,7 +148,7 @@ jobs:
         run: .github/actions/changelog-action/entrypoint.sh > ${{env.VERSION}}-CHANGELOG.md
       - name: Release
         id: ghr
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         with:
           token: ${{ steps.generate_token.outputs.token }}
           body_path: ${{env.VERSION}}-CHANGELOG.md
